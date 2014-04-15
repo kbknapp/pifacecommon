@@ -33,7 +33,8 @@ class SPIDevice(object):
 
     def __del__(self):
         if self.fd is not None:
-            self.close_fd()
+            #self.close_fd()
+            pass
 
     def open_fd(self, spi_device):
         try:
