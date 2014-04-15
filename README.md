@@ -13,8 +13,8 @@ You can also find the documentation installed at:
 
     /usr/share/doc/python3-pifacecommon/
 
-Install
-=======
+Install on Raspbian
+===================
 
 Make sure you are using the lastest version of Raspbian:
 
@@ -31,3 +31,12 @@ can be done with the lastest version of `raspi-config`. Run:
     $ sudo raspi-config
 
 Then navigate to `Advanced Options`, `SPI` and select `yes`.
+
+Install on Arch
+===============
+
+Make sure you are using the lastest version of Arch Linux for ARM (ALARM).
+
+Using yaourt:
+
+    $ yaourt -S pifacecommon
